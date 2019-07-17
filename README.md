@@ -1,5 +1,7 @@
 # Daily-Learning
 Including But Not Limited to C/C++, Python, PCL, OpenCV, SLAM, CV, DeepLearning and MachineLearning.  
+不定期从我的云笔记软件里更新到这里哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈  
+加油  
 ----------------------------------------Interesting Learning----------------------------------------  
   
 https://github.com/braydie/HowToBeAProgrammer  
