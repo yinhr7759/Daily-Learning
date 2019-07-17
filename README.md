@@ -1,5 +1,5 @@
 # LeetCode-learning
-Including But Not Limited to C/C++,python,PCL,OpenCV,SLAM,CV,Deeplearning and Machinelearning.  
+Including But Not Limited to C/C++, Python, PCL, OpenCV, SLAM, CV, DeepLearning and MachineLearning.  
 ----------------------------------------Interesting Learning----------------------------------------  
   
 https://github.com/braydie/HowToBeAProgrammer  
