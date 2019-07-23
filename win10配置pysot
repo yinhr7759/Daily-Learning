@@ -14,7 +14,8 @@ conda activate pysot
   
 5.pip install pyyaml yacs tqdm colorama matplotlib cython tensorboardX  
   
-6.python setup.py build_ext --inplace  
+6.cd C:\Users\Ran__\Desktop\pysot  
+python setup.py build_ext --inplace  
   
 7.bash install.sh /path/to/your/conda pysot  
   
