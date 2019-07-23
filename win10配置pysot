@@ -1,6 +1,7 @@
 ！！！！修改conda、pip源使用国内源  
 再进行！！！！  
-  
+事先安装好cuda  
+   
 1.首先安装anaconda，直接在Anaconda Prompt命令行输入以下命令即可：  
 conda create --name pysot python=3.7  
 conda activate pysot  
