@@ -16,13 +16,17 @@ conda activate pysot
   
 6.cd C:\Users\Ran__\Desktop\pysot  
 python setup.py build_ext --inplace  
+
+7.import sys  
+sys.path.append(r'C:\Users\Ran__\Desktop\pysot')   
+
+ENJOY IT!  
+  
+HAVE FUN!  
   
 script install  
 bash install.sh /path/to/your/conda pysot  
   
-ENJOY IT!  
-  
-HAVE FUN!  
 
 Q:  
 ModuleNotFoundError: No module named 'pysot'  
