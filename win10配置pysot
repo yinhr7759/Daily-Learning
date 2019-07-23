@@ -17,7 +17,8 @@ conda activate pysot
 6.cd C:\Users\Ran__\Desktop\pysot  
 python setup.py build_ext --inplace  
   
-7.bash install.sh /path/to/your/conda pysot  
+script install  
+bash install.sh /path/to/your/conda pysot  
   
 ENJOY IT!  
   
