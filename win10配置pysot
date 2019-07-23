@@ -1,0 +1,30 @@
+！！！！修改conda、pip源使用国内源  
+再进行！！！！  
+  
+1.首先安装anaconda，直接在Anaconda Prompt命令行输入以下命令即可：  
+conda create --name pysot python=3.7  
+conda activate pysot  
+  
+2.conda install numpy  
+  
+3.pip install opencv-python  
+  
+4.conda install pytorch=0.4.1 torchvision cuda90 -c pytorch  
+  
+5.pip install pyyaml yacs tqdm colorama matplotlib cython tensorboardX  
+  
+6.python setup.py build_ext --inplace  
+  
+7.bash install.sh /path/to/your/conda pysot  
+  
+
+
+Q:  
+ModuleNotFoundError: No module named 'pysot'  
+  
+Solution: Run export PYTHONPATH=path/to/pysot first before you run the code.  
+  
+Q:  
+ImportError: cannot import name region  
+  
+Solution: Build region by python setup.py build_ext —-inplace as decribled in INSTALL.md.  
