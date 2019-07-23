@@ -10,6 +10,7 @@ conda activate pysot
 3.pip install opencv-python  
   
 4.conda install pytorch=0.4.1 torchvision cuda90 -c pytorch  
+备注：如果速度很慢，去掉-c  
   
 5.pip install pyyaml yacs tqdm colorama matplotlib cython tensorboardX  
   
