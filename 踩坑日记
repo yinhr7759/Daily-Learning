@@ -1,0 +1,41 @@
+conda create --name pytracking python=3.7
+
+conda activate pytracking
+
+conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
+
+conda install matplotlib pandas
+
+pip install opencv-python visdom tb-nightly
+
+——————Install the coco toolkit——————
+conda install cython
+
+pip install git+https://github.com/philferriere/cocoapi.git#subdirectory=PythonAPI
+-------------------------------------
+
+download from https://visionml.github.io/dimp/prroi_pool.pyd and copy it to the C:\Anaconda3\envs\pytracking\Lib\site-packages
+
+add this code to functional.py
+------------------------------------------------------------------------------
+def _import_prroi_pooling():
+    global _prroi_pooling
+    
+    #load the prroi_pool module    
+	import imp
+    file, path, description = imp.find_module('prroi_pool')
+    with file:
+        _prroi_pooling = imp.load_module('prroi_pool', file, path, description)
+-------------------------------------------------------------------------------
+
+pip install jpeg4py 
+
+python -c "from pytracking.evaluation.environment import create_default_local_file; create_default_local_file()"
+
+python -c "from ltr.admin.environment import create_default_local_file; create_default_local_file()"
+
+download models from https://drive.google.com/drive/folders/1WVhJqvdu-_JG1U-V0IqfxTUa1SBPnL0O
+
+
+
+
