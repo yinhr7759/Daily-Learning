@@ -1,0 +1,9 @@
+get un_reid dataset
+
+autoget_tracklets 
+
+yolo to obtain bbox，and openpose by bbox to detect everyone in videos 
+
+and then perform high-quality pose estimation
+
+at last，poseflow to track pose and get tracklets
